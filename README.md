@@ -3,7 +3,7 @@ Python "bindings" for the Win32 MCI API
 
 The module contains 1 class, `Sound`.
 It has the following methods:
-* __init__(path) - Creates a new Sound object from the .WAV file at `path`.
+* \_\_init\_\_(path) - Creates a new Sound object from the .WAV file at `path`.
 * play() - Plays the sound.
 * stop() - Stops the sound. It can be resumed with `play()`.
 * pause() - Pauses the sound.
